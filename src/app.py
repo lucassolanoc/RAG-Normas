@@ -6,6 +6,7 @@ from generation.generate import generate_answer
 
 
 def main() -> None:
+    """Executa o fluxo de ingestão, busca e geração de resposta."""
     data_path = "data/normas"
     ingest_documents(data_path)
 
