@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+venv/
+# Dados de normas podem ser grandes; evitar versionar
+/data/normas/
