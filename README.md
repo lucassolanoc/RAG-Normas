@@ -25,3 +25,13 @@ para gerar respostas. Configure as seguintes variáveis de ambiente ao executar
 
 - `HF_MODEL`: identificador do modelo no Hub (padrão `google/flan-t5-base`)
 - `HF_API_TOKEN`: token de autenticação (opcional para modelos públicos)
+
+## Servidor Local (Ollama)
+
+Também é possível utilizar um modelo hospedado localmente via Ollama. Para isso,
+defina a variável de ambiente `USE_OLLAMA=1` ao executar o aplicativo. As
+seguintes variáveis podem ser ajustadas:
+
+- `OLLAMA_URL`: endereço do servidor Ollama (padrão
+  `http://localhost:11434`)
+- `OLLAMA_MODEL`: nome do modelo (padrão `deepseek-r1:8b`)
