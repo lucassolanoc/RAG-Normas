@@ -16,3 +16,12 @@ RAG-Normas/
 ├── tests/           # Casos de teste
 └── README.md        # Descrição do projeto
 ```
+
+## Hugging Face Inference API
+
+O módulo `src/generation/generate.py` utiliza a Inference API da Hugging Face
+para gerar respostas. Configure as seguintes variáveis de ambiente ao executar
+`src/app.py`:
+
+- `HF_MODEL`: identificador do modelo no Hub (padrão `google/flan-t5-base`)
+- `HF_API_TOKEN`: token de autenticação (opcional para modelos públicos)
