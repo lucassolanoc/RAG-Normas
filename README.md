@@ -16,6 +16,3 @@ RAG-Normas/
 ├── tests/           # Casos de teste
 └── README.md        # Descrição do projeto
 ```
-
-Para começar, coloque os arquivos de normas em `data/normas/` e adapte os
-scripts em `src/` conforme necessário.
